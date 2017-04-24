@@ -12,7 +12,7 @@ public class TestSalesforce {
 	{
 		String Path=System.getProperty("user.dir");
 	//System.setProperty("webdriver.chrome.driver",Path+"\\chromedriver_win32\\chromedriver.exe");
-     System.setProperty("webdriver.chrome.driver",Path+"\\chromedriver_linux64\\chromedriver");	
+     System.setProperty("webdriver.chrome.driver",Path+"/chromedriver_linux64/chromedriver");	
      
 	WebDriver driver = new ChromeDriver();
 	
